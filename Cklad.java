@@ -9,6 +9,8 @@ public class Cklad {
     int ProdPos1 [] = new int [] {0,0,0,0,0,0};
     
     int ProdPol1 [] = new int [] {0,0,0,0,0,0};
+    int il[];
+    
     
     
     
@@ -18,9 +20,14 @@ Thread Pos1=new Thread()
 	{	public void run(){
 		 while(!stopped)
 			{
-                            try	
-				{sleep((int)(Math.random()*10000));
+                            try	{
+				sleep((int)(Math.random()*10000));
                                 
+                                for ( il =1 ; il <= 4  ; il++){
+                                
+                                    
+                                
+                                };
                                     
                                     
                                 
