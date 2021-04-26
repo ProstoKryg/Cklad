@@ -1,5 +1,6 @@
 package cklad;
 
+
 public class Cklad {
 
     
@@ -24,7 +25,7 @@ Thread Pos1=new Thread()
 		 while(!stopped)
 			{
                             try	{
-				sleep((int)(Math.random()*10000));
+				sleep((int)(Math.random()*1000));
                                 
                                 
                                 
@@ -60,12 +61,12 @@ Thread Pos1=new Thread()
                                      
                                           while(ckal == 0){
                                         while(cled == 0){
-                                            if (posl [il+1] != 0){
+                                            if (posl [il+1] == 0){
                                                 posl [il+1] = 11;
                                                 cled = 1;
                                             }
-                                            if (posl [il+1] != 1000) 
-                                                 posl [il+1] = 11 ;{
+                                            if (posl [il+1] == 1000) {
+                                                 posl [il+1] = 11 ;
                                                  cled = 1;
                                                  ckal = 1;}
                                         }
@@ -103,7 +104,7 @@ Thread Pos2=new Thread()
 		 while(!stopped)
 			{
                             try	{
-				sleep((int)(Math.random()*10000));
+				sleep((int)(Math.random()*1000));
                                 
                                 
                                 
@@ -139,11 +140,11 @@ Thread Pos2=new Thread()
                                      
                                           while(ckal == 0){
                                         while(cled == 0){
-                                            if (posl [il+1] != 0){
+                                            if (posl [il+1] == 0){
                                                 posl [il+1] = 12;
                                                 cled = 1;
                                             }
-                                            if (posl [il+1] != 1000) {
+                                            if (posl [il+1] == 1000) {
                                                  posl [il+1] = 12 ;
                                                  cled = 1;
                                                  ckal = 1;}
@@ -185,7 +186,7 @@ Thread Pol1=new Thread()
 		 while(!stopped)
 			{
                             try	{
-				sleep((int)(Math.random()*10000));
+				sleep((int)(Math.random()*1000));
                                 
                                 
                                 
@@ -222,11 +223,11 @@ Thread Pol1=new Thread()
                                      
                                           while(ckal == 0){
                                         while(cled == 0){
-                                            if (posl [il+1] != 0){
+                                            if (posl [il+1] == 0){
                                                 posl [il+1] = 21;
                                                 cled = 1;
                                             }
-                                            if (posl [il+1] != 1000) {
+                                            if (posl [il+1] == 1000) {
                                                  posl [il+1] = 21 ;
                                                  cled = 1;
                                                  ckal = 1; }
